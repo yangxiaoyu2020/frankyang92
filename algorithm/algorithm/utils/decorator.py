@@ -31,9 +31,9 @@ def trace_memory_usage(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         process = psutil.Process(os.getpid())
-        memory_before = process.memory_info().rss / 1024 / 1024
+        memory_before = process.memory_info().rss
         result = func(*args, **kwargs)
-        memory_after = process.memory_info().rss / 1024 / 1024
-        print(f"{func.__name__} memory usage {memory_after - memory_before} MB")
+        memory_after = process.memory_info().rss
+        print(f"{func.__name__} memory usage {memory_after - memory_before}")
         return result
     return wrapper
