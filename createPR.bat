@@ -7,13 +7,13 @@ set "title="
 :parse_args
 if "%1"=="" goto :end_args
 if "%1"=="-m" (
-    set message=%2
+    set "message=%2"
     shift
     goto :parse_args
 )
 
 if "%1"=="-t" (
-    set title=%2
+    set "title=%2"
     shift
     goto :parse_args
 )

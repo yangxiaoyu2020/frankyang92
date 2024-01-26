@@ -14,18 +14,31 @@ import json
 import requests
 
 
-def __init__():
+def init_args():
     parser = argparse.ArgumentParser(description="Create the PR automatic")
-    parser.add_argument(name_or_flags=('-t', '--title'), help="input the title of PR", required=True)
-    parser.add_argument(name_or_flags=('-m', '--message'), help='input the PR message', required=True)
+    parser.add_argument('-t', '--title', help="input the title of PR", required=True,  dest='title')
+    parser.add_argument('-m', '--message', help='input the PR message', required=True, dest='message')
     return parser.parse_args()
 
+def create_body(message: str) -> str:
+    body = f'''
+    ### Description: 
+    
+    ### Changelog:
+    
+    * {message.replace("_", " ")}
+    
+    ### Test
+    
+    -[x] Pass the test
+    '''
+    return body
 
-def create_pr_on_gitee(title: str, body: str):
+def create_pr_on_gitee(title: str, message: str)-> str:
     """
     create a Pull Request on Gitee
-    :param title: Pull Request标题
-    :param body: Pull Request描述（可选）
+    :param title: Pull Request title
+    :param message: Pull Request message
     """
     owner = "frankyang92"
     repo = "frankyang92"
@@ -40,12 +53,12 @@ def create_pr_on_gitee(title: str, body: str):
         "access_token": get_gitee_access_token(),
         "base": "master",
         "head": "develop",
-        "title": title,
-        "body": body,
+        "title": title.replace("_", " "),
+        "body": create_body(message=message),
         "squash": True  # 设置为False，如果想要立即公开Pull Request
     }
     response = requests.post(url, headers=headers, data=json.dumps(data))
-
+    print(response.status_code)
     return response.status_code
 
 
@@ -56,9 +69,10 @@ def get_gitee_access_token():
     token = ""
     with open("MyToken.txt") as token:
         token = token.readlines()
-    return token
+    print(token[0])
+    return token[0]
 
 
 if __name__ == "__main__":
-    args = __init__()
-    create_pr_on_gitee(args.t, args.m)
+    args = init_args()
+    create_pr_on_gitee(args.title, args.message)
