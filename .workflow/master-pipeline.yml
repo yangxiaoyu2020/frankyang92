@@ -20,8 +20,8 @@ stages:
         commands:
           - python3 -m pip install --upgrade pip
           - pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-          - pip3 install poetry algorithm/tests/*
-          - poetry run python ./alg
+          - pip3 install poetry
+          - poetry run  python .\algorithm\tests\test_binary_search.py
       - step: publish@general_artifacts
         name: publish_general_artifacts
         displayName: 上传制品
