@@ -8,9 +8,13 @@
 # @File    : binary_search.py
 # @IDE     : PyCharm
 
+
 import random
+import sys
 import unittest
 from typing import List
+
+sys.path.append("..")
 
 from algorithm.Array.binary_search import BinarySearch
 
