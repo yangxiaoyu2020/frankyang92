@@ -18,7 +18,7 @@ stages:
             path:
               - ./
         commands:
-          - python3 -m pip install --upgrade pip
+          - python3 -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
           - pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
           - pip3 install poetry
           - cd ./algorithm
