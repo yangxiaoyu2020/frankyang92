@@ -1,37 +1,57 @@
-# frankyang92
+ <center>
+     <h1>杨晓宇</h1>
+ </center>
 
-#### 介绍
-Personal page
+## 个人信息 
 
-#### 软件架构
-软件架构说明
+* 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：32  
+* 手 机：134XXXX3216 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 邮 箱1：frankysjtu@gmail.com 
+* 邮 箱2: 2281358393@qq.com &emsp;&emsp;&emsp; 岗 位：研发工程师
+
+## 工作及教育经历
+
+* AUTODESK &emsp;&emsp;&emsp;&emsp; 2019.5~至今&emsp;&emsp;&emsp;&emsp;&emsp; 事业群名字-部门名字
+
+* HUAWEI&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2019.5~至今&emsp;&emsp;&emsp;&emsp;&emsp; 事业群名字-部门名字       
+* 上海交通大学&emsp;&emsp;&emsp;&emsp;2016.9~2019.3&emsp;&emsp;&emsp;&emsp;         
+* 武汉大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2011.9~2015.7&emsp;&emsp;&emsp;&emsp; 
+
+## 专业技能
+
+* 熟练使用 Python，掌握Java， C++，了解 Scala、TS 等编程语言
+* 掌握基础数据结构和算法的基本原理
+* 等等
+
+## 项目经历
+
+1. 公司/学校 - XXweb服务器 - 独立开发 - 201508- 201512 
+    * 具体功能 
+    * 运用了那些技术，技术难点是
+    * 效果如何
+    * demo演示地址，github地址 
+
+2. 公司/学校 - XX游戏 - 负责后端开发 - 201309- 201401 
+    * 具体功能 
+    * 运用了那些技术，技术难点是
+    * 效果如何
+    * demo演示地址，github地址 
+
+## 获奖经历
+* XXX 优秀新人
+* XXX 学生社团优秀干部
+* 竞赛 XXX 奖
+
+## 个人账号
+* github 地址 
+* github 地址 
+
+## 其他信息 
+* 喜欢钻研技术 等等
+* 喜欢运动
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+<a name="微信"></a>
+<img src="" data-img="1" width="175" height="175">
 
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
