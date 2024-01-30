@@ -38,5 +38,5 @@ REM Here you can add your further processing or actions based on %message% and %
 echo Message: %message%
 echo Title: %title%
 
-python create_PR.py -t %title% -m %message%
+poetry run python create_PR.py -t %title% -m %message%
 exit /0
