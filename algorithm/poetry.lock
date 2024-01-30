@@ -30,5 +30,5 @@ test = ["enum34", "ipaddress", "mock", "pywin32", "wmi"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.12"
-content-hash = "815208a47bb938aa8b31fa368ed58fea70e9d772ca894354cd55cd2a739856d1"
+python-versions = ">=3.9"
+content-hash = "fe448ccc52d1187bcdba2330d9f62cb67af3849d5faf56ad9ad8e1bf57d42b89"

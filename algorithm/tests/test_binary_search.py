@@ -8,9 +8,14 @@
 # @File    : binary_search.py
 # @IDE     : PyCharm
 
+
 import random
+import sys
+import os
 import unittest
 from typing import List
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from algorithm.Array.binary_search import BinarySearch
 
