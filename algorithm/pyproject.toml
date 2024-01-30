@@ -6,7 +6,7 @@ authors = ["frank yang <franksjty@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.9"
 psutil = "^5.9.8"
 
 
