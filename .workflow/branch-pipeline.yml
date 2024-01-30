@@ -23,7 +23,8 @@ stages:
           - python3 -m pip install --upgrade pip
           - pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
           - pip3 install poetry
-          - python3 -m poetry run  python ./algorithm/tests/test_binary_search.py
+          - cd ./algorithm
+          - python3 -m poetry run  python ./tests/test_binary_search.py
         artifacts:
           - name: BUILD_ARTIFACT
             path:
