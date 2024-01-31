@@ -38,7 +38,8 @@
 
 
 ## 个人账号
-* gitee 地址:[https://gitee.com/frankyang92/frankyang92](https://gitee.com/frankyang92/frankyang92)
+* gitee 地址: [https://gitee.com/frankyang92/frankyang92](https://gitee.com/frankyang92/frankyang92)
+* github 地址: [https://github.com/yangxiaoyu2020/frankyang92](https://github.com/yangxiaoyu2020/frankyang92)
 
 ## 其他信息 
 * 喜欢钻研技术 等等
