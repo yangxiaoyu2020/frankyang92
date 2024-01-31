@@ -36,14 +36,9 @@
     * 效果如何
     * demo演示地址，github地址 
 
-## 获奖经历
-* XXX 优秀新人
-* XXX 学生社团优秀干部
-* 竞赛 XXX 奖
 
 ## 个人账号
-* github 地址 
-* github 地址 
+* gitee 地址:[https://gitee.com/frankyang92/frankyang92](https://gitee.com/frankyang92/frankyang92)
 
 ## 其他信息 
 * 喜欢钻研技术 等等
