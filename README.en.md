@@ -1,36 +1,50 @@
-# frankyang92
+<center>
+    <h1>Frank Yang</h1>
+</center>
 
-#### Description
-Personal page
+## Personal Information
 
-#### Software Architecture
-Software architecture description
+* Gender: Male&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Age: 32
+* Phone: 134XXXX3216 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Email 1: frankysjtu@gmail.com
+* Email 2: 2281358393@qq.com &emsp;&emsp;&emsp; Position: Research and Development Engineer
 
-#### Installation
+## Work and Education Experience
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+* AUTODESK &emsp;&emsp;&emsp;&emsp; 2019.5~Present&emsp;&emsp;&emsp;&emsp;&emsp; Business Unit - Department Name
 
-#### Instructions
+* HUAWEI&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2019.5~Present&emsp;&emsp;&emsp;&emsp;&emsp; Business Unit - Department Name       
+* Shanghai Jiao Tong University&emsp;&emsp;&emsp;&emsp;2016.9~2019.3&emsp;&emsp;&emsp;&emsp;         
+* Wuhan University&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2011.9~2015.7&emsp;&emsp;&emsp;&emsp; 
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Professional Skills
 
-#### Contribution
+* Proficient in Python, familiar with Java, C++, and knowledgeable about Scala, TypeScript, and other programming languages
+* Mastery of fundamental principles of data structures and algorithms
+* And more
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Project Experience
 
+1. Company/School - XX Web Server - Independent Development - 201508-201512 
+    * Specific functionalities 
+    * Technologies used, technical challenges
+    * Project outcomes
+    * Demo presentation link, GitHub repository link 
 
-#### Gitee Feature
+2. Company/School - XX Game - Backend Development Lead - 201309-201401 
+    * Specific functionalities 
+    * Technologies used, technical challenges
+    * Project outcomes
+    * Demo presentation link, GitHub repository link 
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Personal Accounts
+* Gitee: [https://gitee.com/frankyang92/frankyang92](https://gitee.com/frankyang92/frankyang92)
+* GitHub: [https://github.com/yangxiaoyu2020/frankyang92](https://github.com/yangxiaoyu2020/frankyang92)
+
+## Additional Information 
+* Enjoys delving into technology, and more
+* Enjoys sports
+
+## Wechat
+
+<a name="WeChat"></a>
+<img src="resource/image/wechat.jpg" data-img="1" width="175" height="175">
