@@ -42,4 +42,14 @@
    ![K3s_install_china.png](K3s_install_china.png)
    ```curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -```
 
+6. Init the master and worker
+   ```shell
+   $TOKEN = & multipass exec k3s sudo cat /var/lib/rancher/k3s/server/node-token
+   $MASTER_IP = & multipass info k3s | Select-String 'IPv4' | ForEach-Object { $_.ToString().Split(' ')[-1] }
+   ```
+   or 
+   ```shell
+   .\k3s.bat
+   ```
+   
 ## Linus( This would be much easier than windows)
