@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
 
 
-    need_test_big_matrix = False
+    need_test_big_matrix = True
 
     if need_test_big_matrix:
         big_matrix = []
@@ -122,3 +122,13 @@ if __name__ == "__main__":
                         matrix_line = []
             result = MaximalSquare.maximal_square_direct(big_matrix)
             print(result)
+            result = MaximalSquare.maximal_square_dp(big_matrix)
+            print(result)
+            """
+            maximal_square_direct memory usage 57344
+            maximal_square_direct cost 55.99699544906616
+            90000
+            maximal_square_dp memory usage 339968
+            maximal_square_dp cost 0.03350019454956055
+            90000
+            """
