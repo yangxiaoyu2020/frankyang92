@@ -41,7 +41,7 @@ class MaximalRectangle:
 
 
 if __name__ == "__main__":
-# Example usage:
+    # Example usage:
     matrix = [
         ["1", "0", "1", "0", "0"],
         ["1", "0", "1", "1", "1"],
