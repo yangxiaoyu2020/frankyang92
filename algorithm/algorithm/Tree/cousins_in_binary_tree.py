@@ -99,6 +99,8 @@ class Solution:
 
         # Return the result of the comparison
         return x_level == y_level and x_parent != y_parent
+
+
 # Example usage:
 # Define the binary tree
 

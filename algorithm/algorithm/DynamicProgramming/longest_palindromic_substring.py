@@ -12,25 +12,17 @@ import pprint
 
 class LongestPalindromicSubstring:
     @staticmethod
-    def dp_method(s: str) -> str:
-        start = 0
-        end = 0
-        max_length = 0
-        # init a dp group
+    def longest_palindrome(s: str) -> str:
         length = len(s)
+        ans = ''
         dp = [[False for _ in range(length)] for _ in range(length)]
         for i in range(length-1, -1, -1):
             for j in range(i, length):
-
-                if s[i] == s[j]:
-                    if j - i <= 1 or dp[i + 1][j - 1]:
-
-                        dp[i][j] = True
-                if dp[i][j] and j - i + 1 > max_length:
-                    max_length = j - i + 1
-                    start = i
-                    end = j
-        return s[start: end+1]
+                if s[i] == s[j] and (j - i <= 1 or dp[i + 1][j - 1]):
+                    dp[i][j] = True
+                if dp[i][j] and j - i + 1 > len(ans):
+                    ans = s[i:j+1]
+        return ans
 
 
 if __name__ == "__main__":
