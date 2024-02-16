@@ -20,7 +20,9 @@
 
 * Proficient in Python, familiar with Java, C++, and knowledgeable about Scala, TypeScript, and other programming languages
 * Mastery of fundamental principles of data structures and algorithms
-* And more
+* [K8s](Kubernetes), [Sql](sql), [Docker](Docker)
+* 
+* 
 
 ## Project Experience
 
