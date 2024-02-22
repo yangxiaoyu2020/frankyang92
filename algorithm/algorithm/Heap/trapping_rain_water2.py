@@ -13,17 +13,17 @@ from typing import List
 
 class TrappingRainWaterII:
 
-    def trap_rain_water_heap(self, heightMap: List[List[int]]) -> int:
-        if len(heightMap) < 3 or len(heightMap[0]) < 3:
+    def trap_rain_water_heap(self, height_map: List[List[int]]) -> int:
+        if len(height_map) < 3 or len(height_map[0]) < 3:
             return 0
-        m, n = len(heightMap), len(heightMap[0])
+        m, n = len(height_map), len(height_map[0])
         visited = [[0 for _ in range(n)] for _ in range(m)]
         pq = []
         for i in range(m):
             for j in range(n):
                 if self.in_bound(i, j, m, n):
                     visited[i][j] = 1
-                    heapq.heappush(pq, (heightMap[i][j], i * n + j))
+                    heapq.heappush(pq, (height_map[i][j], i * n + j))
 
         res = 0
         dirs = [-1, 0, 1, 0, -1]
@@ -31,11 +31,11 @@ class TrappingRainWaterII:
             height, position = heapq.heappop(pq)
             for k in range(4):
                 nx, ny = position // n + dirs[k], position % n + dirs[k + 1]
-                if nx >= 0 and nx < m and ny >= 0 and ny < n and visited[nx][ny] == 0:
-                    if height > heightMap[nx][ny]:
-                        res += height - heightMap[nx][ny]
+                if m > nx >= 0 == visited[nx][ny] and 0 <= ny < n:
+                    if height > height_map[nx][ny]:
+                        res += height - height_map[nx][ny]
                     visited[nx][ny] = 1
-                    heapq.heappush(pq, (max(height, heightMap[nx][ny]), nx * n + ny))
+                    heapq.heappush(pq, (max(height, height_map[nx][ny]), nx * n + ny))
         return res
 
     @staticmethod
